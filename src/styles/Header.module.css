@@ -1,0 +1,49 @@
+nav {
+    width: 100%;
+    background-color: gray;
+    overflow: auto;
+}
+ul {
+    padding: 0;
+    margin: 20px 0 0 150px;
+    list-style: none;
+    
+
+}
+li{
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    font-size: larger;
+}
+
+.logo img {
+    padding: 0px;
+    margin: 20px 0 0 150px;
+    text-align: left;
+    display:inline-block;
+    vertical-align:top;
+    position: relative;
+    top: 30px;
+  }  
+
+
+nav a {
+    width: 100%;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    background-color: white;
+    opacity: 80%;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-radius: 15px;
+
+}
