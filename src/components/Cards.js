@@ -20,12 +20,13 @@ const Cards = ({ products }) => {
                 <button onClick={handleClick} className="setting">
                   View Details
                 </button>
+                <div/>
                 {isShown && (
                   <div className={classes.container}>
                     <p>Product Title :{p.title}</p>
                     <p>Product Category :{p.category}</p>
                     <p>Product description: {p.description}</p>
-                    <p>Product Price :{p.price}</p>
+                    <p>Product Price :{p.price}€</p>
                   </div>
                 )}
               </div>
